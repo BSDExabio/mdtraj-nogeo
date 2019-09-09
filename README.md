@@ -1,3 +1,12 @@
+The code has been edited to avoid building RMSD and Geometry libraries. All python code attempting
+to import these libraries or the NMR library is commented out.
+
+Compiled and used successfully on OLCF Summit with these install steps:
+
+`git clone https://github.com/jrossyra/mdtraj-nogeo`
+`cd mdtraj-nogeo`
+`pip install -e .`
+
 ## MDTraj: a modern, open library for the analysis of molecular dynamics trajectories
 
 [![Linux Build Status](https://travis-ci.org/mdtraj/mdtraj.svg?branch=master)](https://travis-ci.org/mdtraj/mdtraj)
