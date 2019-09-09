@@ -7,6 +7,9 @@ Compiled and used successfully on OLCF Summit with these install steps:
 `cd mdtraj-nogeo`
 `pip install -e .`
 
+
+========================== Original MDTraj Readme =================================
+
 ## MDTraj: a modern, open library for the analysis of molecular dynamics trajectories
 
 [![Linux Build Status](https://travis-ci.org/mdtraj/mdtraj.svg?branch=master)](https://travis-ci.org/mdtraj/mdtraj)
