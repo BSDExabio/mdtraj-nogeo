@@ -275,8 +275,8 @@ if __name__ == '__main__':
     run_build = parse_setuppy_commands()
     if run_build:
         extensions = format_extensions()
-        extensions.extend(rmsd_extensions())
-        extensions.extend(geometry_extensions())
+        #extensions.extend(rmsd_extensions())
+        #extensions.extend(geometry_extensions())
 
         # most extensions use numpy, add headers for it.
         try:
