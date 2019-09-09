@@ -3,10 +3,11 @@ to import these libraries or the NMR library is commented out.
 
 Compiled and used successfully on OLCF Summit with these install steps:
 
-`git clone https://github.com/jrossyra/mdtraj-nogeo`
-`cd mdtraj-nogeo`
-`pip install -e .`
-
+```bash
+git clone https://github.com/jrossyra/mdtraj-nogeo
+cd mdtraj-nogeo
+pip install -e .
+```
 
 ========================== Original MDTraj Readme =================================
 
