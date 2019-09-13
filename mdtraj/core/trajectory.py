@@ -940,7 +940,7 @@ class Trajectory(object):
     #        Use OpenMP to run the superposition in parallel over multiple cores
 
     #    Returns
-        -------
+    #    -------
     #    self
     #    """
 
